@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="24" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="111743" started-at="2016-03-06T16:59:56Z" finished-at="2016-03-06T17:01:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="111743" started-at="2016-03-06T16:59:56Z" finished-at="2016-03-06T17:01:47Z">
+      <class name="com.pages.SmokeTest">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="OpenBrowser" is-config="true" duration-ms="7641" started-at="2016-03-06T11:59:56Z" finished-at="2016-03-06T12:00:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="3564" started-at="2016-03-06T12:00:03Z" finished-at="2016-03-06T12:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AccountProductDetails()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="AccountProductDetails" duration-ms="13724" started-at="2016-03-06T12:00:07Z" finished-at="2016-03-06T12:00:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountProductDetails -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="321" started-at="2016-03-06T12:00:20Z" finished-at="2016-03-06T12:00:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AccountProductDetails status=SUCCESS method=SmokeTest.AccountProductDetails()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1747" started-at="2016-03-06T12:00:21Z" finished-at="2016-03-06T12:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AddMoreText()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="AddMoreText" duration-ms="3064" started-at="2016-03-06T12:00:23Z" finished-at="2016-03-06T12:00:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMoreText -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="38" started-at="2016-03-06T12:00:26Z" finished-at="2016-03-06T12:00:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddMoreText status=SUCCESS method=SmokeTest.AddMoreText()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1387" started-at="2016-03-06T12:00:26Z" finished-at="2016-03-06T12:00:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ContactUs()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="ContactUs" duration-ms="73" started-at="2016-03-06T12:00:27Z" finished-at="2016-03-06T12:00:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="43" started-at="2016-03-06T12:00:27Z" finished-at="2016-03-06T12:00:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUs status=SUCCESS method=SmokeTest.ContactUs()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1210" started-at="2016-03-06T12:00:27Z" finished-at="2016-03-06T12:00:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="EmptyCartVisibility()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="EmptyCartVisibility" duration-ms="25" started-at="2016-03-06T12:00:28Z" finished-at="2016-03-06T12:00:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyCartVisibility -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="34" started-at="2016-03-06T12:00:28Z" finished-at="2016-03-06T12:00:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EmptyCartVisibility status=SUCCESS method=SmokeTest.EmptyCartVisibility()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="3477" started-at="2016-03-06T12:00:28Z" finished-at="2016-03-06T12:00:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="FeaturedProductDisplay()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="FeaturedProductDisplay" duration-ms="31" started-at="2016-03-06T12:00:32Z" finished-at="2016-03-06T12:00:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FeaturedProductDisplay -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="36" started-at="2016-03-06T12:00:32Z" finished-at="2016-03-06T12:00:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FeaturedProductDisplay status=SUCCESS method=SmokeTest.FeaturedProductDisplay()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1464" started-at="2016-03-06T12:00:32Z" finished-at="2016-03-06T12:00:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="GridVsList()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="GridVsList" duration-ms="2100" started-at="2016-03-06T12:00:33Z" finished-at="2016-03-06T12:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GridVsList -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="26" started-at="2016-03-06T12:00:36Z" finished-at="2016-03-06T12:00:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GridVsList status=SUCCESS method=SmokeTest.GridVsList()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1056" started-at="2016-03-06T12:00:36Z" finished-at="2016-03-06T12:00:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LeftSorting()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="LeftSorting" duration-ms="4409" started-at="2016-03-06T12:00:37Z" finished-at="2016-03-06T12:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LeftSorting -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="26" started-at="2016-03-06T12:00:41Z" finished-at="2016-03-06T12:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LeftSorting status=SUCCESS method=SmokeTest.LeftSorting()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1024" started-at="2016-03-06T12:00:41Z" finished-at="2016-03-06T12:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NavTest()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="NavTest" duration-ms="37" started-at="2016-03-06T12:00:42Z" finished-at="2016-03-06T12:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="27" started-at="2016-03-06T12:00:42Z" finished-at="2016-03-06T12:00:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavTest status=SUCCESS method=SmokeTest.NavTest()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1292" started-at="2016-03-06T12:00:42Z" finished-at="2016-03-06T12:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="NewAccount()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="NewAccount" duration-ms="12327" started-at="2016-03-06T12:00:43Z" finished-at="2016-03-06T12:00:56Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"id","selector":"id_gender1"}
+Command duration or timeout: 10.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'Katie', ip: '192.168.211.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 97d9f5f7-e760-4a67-9b48-cccc60edd94f
+*** Element info: {Using=id, value=id_gender1}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"id_gender1"}
+Command duration or timeout: 10.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'Katie', ip: '192.168.211.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 97d9f5f7-e760-4a67-9b48-cccc60edd94f
+*** Element info: {Using=id, value=id_gender1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:403)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at com.pages.PersonalInfoPage.AddInfo(PersonalInfoPage.java:33)
+	at com.pages.SmokeTest.NewAccount(SmokeTest.java:222)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"id_gender1"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'Katie', ip: '192.168.211.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_73'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Samima/AppData/Local/Temp/anonymous1990142775994220448webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Samima/AppData/Local/Temp/anonymous1990142775994220448webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewAccount -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="397" started-at="2016-03-06T12:00:56Z" finished-at="2016-03-06T12:00:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NewAccount status=FAILURE method=SmokeTest.NewAccount()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1228" started-at="2016-03-06T12:00:56Z" finished-at="2016-03-06T12:00:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="PopularProducts()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="PopularProducts" duration-ms="358" started-at="2016-03-06T12:00:57Z" finished-at="2016-03-06T12:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PopularProducts -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="27" started-at="2016-03-06T12:00:58Z" finished-at="2016-03-06T12:00:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PopularProducts status=SUCCESS method=SmokeTest.PopularProducts()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1234" started-at="2016-03-06T12:00:58Z" finished-at="2016-03-06T12:00:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="PriceSlide()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="PriceSlide" duration-ms="1626" started-at="2016-03-06T12:00:59Z" finished-at="2016-03-06T12:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PriceSlide -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="49" started-at="2016-03-06T12:01:01Z" finished-at="2016-03-06T12:01:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PriceSlide status=SUCCESS method=SmokeTest.PriceSlide()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1048" started-at="2016-03-06T12:01:01Z" finished-at="2016-03-06T12:01:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ProCatNav()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="ProCatNav" duration-ms="1535" started-at="2016-03-06T12:01:02Z" finished-at="2016-03-06T12:01:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProCatNav -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="63" started-at="2016-03-06T12:01:03Z" finished-at="2016-03-06T12:01:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProCatNav status=SUCCESS method=SmokeTest.ProCatNav()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1262" started-at="2016-03-06T12:01:03Z" finished-at="2016-03-06T12:01:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ProductCounting()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="ProductCounting" duration-ms="1675" started-at="2016-03-06T12:01:05Z" finished-at="2016-03-06T12:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCounting -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="37" started-at="2016-03-06T12:01:06Z" finished-at="2016-03-06T12:01:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProductCounting status=SUCCESS method=SmokeTest.ProductCounting()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1427" started-at="2016-03-06T12:01:06Z" finished-at="2016-03-06T12:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Search()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="Search" duration-ms="1486" started-at="2016-03-06T12:01:08Z" finished-at="2016-03-06T12:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="28" started-at="2016-03-06T12:01:09Z" finished-at="2016-03-06T12:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Search status=SUCCESS method=SmokeTest.Search()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1148" started-at="2016-03-06T12:01:09Z" finished-at="2016-03-06T12:01:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SignIn()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="SignIn" duration-ms="7185" started-at="2016-03-06T12:01:10Z" finished-at="2016-03-06T12:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="28" started-at="2016-03-06T12:01:18Z" finished-at="2016-03-06T12:01:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignIn status=SUCCESS method=SmokeTest.SignIn()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="2843" started-at="2016-03-06T12:01:18Z" finished-at="2016-03-06T12:01:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Sorting()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="Sorting" duration-ms="2530" started-at="2016-03-06T12:01:20Z" finished-at="2016-03-06T12:01:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sorting -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="23" started-at="2016-03-06T12:01:23Z" finished-at="2016-03-06T12:01:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Sorting status=SUCCESS method=SmokeTest.Sorting()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1157" started-at="2016-03-06T12:01:23Z" finished-at="2016-03-06T12:01:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="StoreLocations()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="StoreLocations" duration-ms="3173" started-at="2016-03-06T12:01:24Z" finished-at="2016-03-06T12:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StoreLocations -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="50" started-at="2016-03-06T12:01:27Z" finished-at="2016-03-06T12:01:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=StoreLocations status=SUCCESS method=SmokeTest.StoreLocations()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1271" started-at="2016-03-06T12:01:27Z" finished-at="2016-03-06T12:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SubCatLinkS()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="SubCatLinkS" duration-ms="1583" started-at="2016-03-06T12:01:29Z" finished-at="2016-03-06T12:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubCatLinkS -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="23" started-at="2016-03-06T12:01:30Z" finished-at="2016-03-06T12:01:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SubCatLinkS status=SUCCESS method=SmokeTest.SubCatLinkS()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1138" started-at="2016-03-06T12:01:30Z" finished-at="2016-03-06T12:01:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="SubscribeSucess()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="SubscribeSucess" duration-ms="1417" started-at="2016-03-06T12:01:31Z" finished-at="2016-03-06T12:01:33Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Newsletter : You have successfully subscribed to this newsletter.] but found [Newsletter : This email address is already registered.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Newsletter : You have successfully subscribed to this newsletter.] but found [Newsletter : This email address is already registered.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.pages.SmokeTest.SubscribeSucess(SmokeTest.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubscribeSucess -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="2391" started-at="2016-03-06T12:01:33Z" finished-at="2016-03-06T12:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SubscribeSucess status=FAILURE method=SmokeTest.SubscribeSucess()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1167" started-at="2016-03-06T12:01:35Z" finished-at="2016-03-06T12:01:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TwitterLink()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="TwitterLink" duration-ms="41" started-at="2016-03-06T12:01:36Z" finished-at="2016-03-06T12:01:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TwitterLink -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="32" started-at="2016-03-06T12:01:36Z" finished-at="2016-03-06T12:01:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TwitterLink status=SUCCESS method=SmokeTest.TwitterLink()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1161" started-at="2016-03-06T12:01:36Z" finished-at="2016-03-06T12:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="logoPresent()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="logoPresent" duration-ms="33" started-at="2016-03-06T12:01:38Z" finished-at="2016-03-06T12:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoPresent -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="23" started-at="2016-03-06T12:01:38Z" finished-at="2016-03-06T12:01:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoPresent status=SUCCESS method=SmokeTest.logoPresent()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1144" started-at="2016-03-06T12:01:38Z" finished-at="2016-03-06T12:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="navigation()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="navigation" duration-ms="211" started-at="2016-03-06T12:01:39Z" finished-at="2016-03-06T12:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="21" started-at="2016-03-06T12:01:39Z" finished-at="2016-03-06T12:01:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigation status=SUCCESS method=SmokeTest.navigation()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1012" started-at="2016-03-06T12:01:39Z" finished-at="2016-03-06T12:01:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="WishListClick()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="WishListClick" duration-ms="2691" started-at="2016-03-06T12:01:40Z" finished-at="2016-03-06T12:01:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WishListClick -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="27" started-at="2016-03-06T12:01:43Z" finished-at="2016-03-06T12:01:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WishListClick status=SUCCESS method=SmokeTest.WishListClick()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="beforeMethod" is-config="true" duration-ms="1152" started-at="2016-03-06T12:01:43Z" finished-at="2016-03-06T12:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ProductDetails()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="ProductDetails" duration-ms="1835" started-at="2016-03-06T12:01:44Z" finished-at="2016-03-06T12:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductDetails -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="22" started-at="2016-03-06T12:01:46Z" finished-at="2016-03-06T12:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProductDetails status=SUCCESS method=SmokeTest.ProductDetails()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.pages.SmokeTest@3b6eb2ec]" name="afterTest" is-config="true" duration-ms="1477" started-at="2016-03-06T12:01:46Z" finished-at="2016-03-06T12:01:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.pages.SmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
